@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <title>YK'sPortoilo</title>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="icon" href="image/favicon.png">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js.js"></script>
+    
 </head>
 
 <body>
     <header class="flex">
-        <h1><a href="#"><img src="image/logo.png" alt="송연경 포토폴리오"></a></h1>
+        <h1><a href="#"><img src="image/logo_3.png" alt="송연경 포토폴리오"></a></h1>
         <nav class="gnb">
             <ul class="flex">
                 <!-- <li><a href="#about">About Me</a></li> -->
@@ -31,6 +32,17 @@
         </nav>
     </header>
     <main>
+        <div class="pager">
+            <ul class="pagination">
+                <li class="on"><a href="#"><span class="blind">1</span></a></li>
+                <li><a href="#skill"><span class="blind">2</span></a></li>
+                <li><a href="#Project_Web"><span class="blind">3</span></a></li>
+                <li><a href="#Clone_Page"><span class="blind">4</span></a></li>
+                <li><a href="#Design"><span class="blind">5</span></a></li>
+                <li><a href="#Contact"><span class="blind">6</span></a></li>
+            </ul>
+        </div>   
+        <div class="all">
         <div class="mtop">
             <p><img src="image/main_top.gif" alt="메인비주얼"></p>
             <div class="intro">
@@ -39,7 +51,9 @@
                 <p class="tag"><span>#적극적인</span><span>#활발한</span><span>#성장하는</span></p>
             </div>
         </div>
-        <div class="all">
+        
+    
+        <div class="bg">
             <!-- <section class="mainAbout" id="about">
         <h2>About Me</h2>
         <div class="aboutMe inner flex">
@@ -69,7 +83,7 @@
         </div>
     </div>
        </section> -->
-            <section class="Skill inner" id="skill">
+            <section class="Skill" id="skill">
                 <h2>Skill</h2>
                 <div class="mySkill flex inner">
                     <p class="htmlIcon">유효성 문제없이 HTML5 웹 접근성에 올바르며 모든 사람들이 편하게 이용할 수 있는 HTML 구조를 구성 할 수 있습니다.</p>
@@ -86,10 +100,12 @@
 
                     <h3>Café la vie à Paris</h3>
                     <div class="planning flex">
+                        <div class="mokup">
                         <p><img src="image/OS971A1.png" alt="웹목업" class="webImg"></p>
-                        <p><img src="image/메인페이지.png" alt="모바일 목업" class="mobileImg"></p>
+                        <p><img src="image/cafe_mb.png" alt="모바일 목업" class="mobileImg"></p>
+                    </div>
                         <div class="detail flex">
-
+                        
                             <div>
                                 <h3><strong>반응형 웹제작 <br> (Desktop, Mobile412 구성)</strong></h3>
                                 <p><strong>참여도</strong></p>
@@ -97,12 +113,15 @@
                             </div>
                             <div>
                                 <p><strong>사용프로그램</strong></p>
-                                <p>Figam,Photoshop</p>
+                                <p>Figma, Photoshop</p>
                             </div>
                             <div class="btn flex">
-                                <button type="button"><a href="#">와이어프레임/프로토타입</a></button>
-                                <button type="button"><a href="#">기획서</a></button>
-                                <button type="button"><a href="https://www.figma.com/proto/PiItSPhMvdOfbK2vS3kRA3/Untitled?node-id=13-47&t=mgOrDRQ4DISq6NVb-1&scaling=scale-down&page-id=0%3A1">앱 최종 프로젝트 결과</a></button>
+                            
+                                <button type="button"><a href="https://www.figma.com/proto/PiItSPhMvdOfbK2vS3kRA3/%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%B9%84%EC%95%84%ED%8C%8C%EB%A6%AC-%EC%9B%B9%EB%94%94%EC%9E%90%EC%9D%B8?node-id=369-2552&t=pbBEQXAVQKKMpPt2-1&scaling=min-zoom&content-scaling=fixed&page-id=24%3A1333">기획서</a></button>
+                                <button type="button"><a
+                                        href="https://www.figma.com/proto/PiItSPhMvdOfbK2vS3kRA3/Untitled?node-id=13-47&t=mgOrDRQ4DISq6NVb-1&scaling=scale-down&page-id=0%3A1">앱
+                                        최종 프로젝트 결과</a></button>
+                                        <button type="button"><a href="https://www.figma.com/proto/PiItSPhMvdOfbK2vS3kRA3/%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%B9%84%EC%95%84%ED%8C%8C%EB%A6%AC-%EC%9B%B9%EB%94%94%EC%9E%90%EC%9D%B8?node-id=130-849&t=shVHmBHCEyDLhDDD-1&scaling=min-zoom&content-scaling=fixed&page-id=130%3A848">웹 최종 프로젝트 결과</a></button>
                             </div>
                         </div>
                     </div>
@@ -114,37 +133,38 @@
                 <div class="inner">
 
                     <h3>HERSHEY'S</h3>
-                    <div class="clonePg flex">
-                        <p><img src="image/OS971A1.png" alt="웹목업" class="webImg"></p>
-                        <p><img src="image/메인페이지.png" alt="모바일 목업" class="mobileImg"></p>
+                    <div class="clonePg Hershes flex">
+                        <div class="mokup">
+                        <p><img src="image/hershey's_mokup.png" alt="웹목업" class="webImg"></p>
+                        <p><img src="image/hershey's_mb.png" alt="모바일 목업" class=" mobileImg"></p>
+                    </div>
                         <div class="detail flex">
                             <h3><strong>반응형 클론페이지 제작 <br> (Desktop, Mobile 구성)</strong></h3>
                             <div>
                                 <p><strong>사용프로그램</strong></p>
-                                <p>HTML,CSS,jQUERY</p>
+                                <p>HTML, CSS, jQUERY</p>
                             </div>
                             <div class="btn flex">
-                                <button type="button"><a href="#">클론페이지 보기</a></button>
+                                <button type="button"><a href="hersheys/HERSHEY'S.html">클론페이지 보기</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="monani inner">
 
-                    
+
                     <div class="planning flex">
-                        
-                        <p><img src="image/OS971A1.png" alt="웹목업" class="webImg"></p>
-                        <p><img src="image/메인페이지.png" alt="모바일 목업" class="mobileImg"></p>
+
+                        <p><img src="image/monami.png" alt="웹목업" class="webImg"></p>
                         <div class="detail flex">
                             <h3>monani</h3>
                             <h3><strong>적응형 클론페이지 제작 <br> (Desktop, Mobile 구성)</strong></h3>
                             <div>
                                 <p><strong>사용프로그램</strong></p>
-                                <p>HTML,CSS,jQUERY</p>
+                                <p>HTML, CSS, jQUERY</p>
                             </div>
                             <div class="btn flex">
-                                <button type="button"><a href="#">클론페이지 보기</a></button>
+                                <button type="button"><a href="moanmi/index.html">클론페이지 보기</a></button>
                             </div>
                         </div>
                     </div>
@@ -156,64 +176,51 @@
                     <h3>SNS_Design</h3>
                     <div class="snsDesign">
                         <ul class="flex">
-                            <li><img src="image/타임쿠폰-이벤트-배너.jpg" alt="타임쿠폰이벤트배너"></li>
-                            <li><img src="image/블랙프라이데이 이벤트.jpg" alt="블랙프라이데이이벤트배너"></li>
-                            <li><img src="image/반값 세일 이벤트.jpg" alt=""></li>
+                            <li><img src="image/time_coupon.jpg" alt="타임쿠폰이벤트배너"></li>
+                            <li><img src="image/blackfriday.jpg" alt="블랙프라이데이이벤트배너"></li>
+                            <li><img src="image/half_sale.jpg" alt="반값 세일 이벤트"></li>
                             <li><img src="image/health_week.jpg" alt="헬스제품이벤트"></li>
-                            <li><img src="image/이벤트-배너2.jpg" alt="천원의 행복이벤트배너"></li>
+                            <li><img src="image/1000won_event.jpg" alt="천원의 행복이벤트배너"></li>
                         </ul>
                     </div>
                 </div>
-                    <h3 class="inner">Banner_Design</h3>
-                    <div class="bannerDesign">
-                        <ul>
-                            <li><img src="image/당일 새벽배송 이벤트 배너.jpg" alt="새벽배송이벤트배너"></li>
-                            <li><img src="image/펫케어이벤트베너.jpg" alt="블랙프라이데이이벤트배너"></li>
-                        </ul>
-                    </div>
-                    <div class="inner">
+                <h3 class="inner">Banner_Design</h3>
+                <div class="bannerDesign">
+                    <div class="autoplay">
+                        <div><img src="image/pet_care_event.jpg" alt="펫케어이벤트배너"></div>
+                        <div><img src="image/dawn.png" alt="새벽배송이벤트배너"></div>
+                        <div><img src="image/special_price_event.jpg" alt="특가이벤트배너"></div>
+                       
+                      </div>
+                </div>
+                <div class="inner">
                     <h3>Detailed Page_Design</h3>
                     <div class="detailedPage">
-                        <p><img src="image/상세페이지--리스테린.jpg" alt="상세페이지리스테린"></p>
+                        <p><img src="image/listerin.jpg" alt="상세페이지리스테린"></p>
                     </div>
                     <div class="detailedPage2">
-                        <p><img src="image/빙그레_상세페이지.jpg" alt="상세페이지빙그레"></p>
+                        <p><img src="image/binggrea.jpg" alt="상세페이지빙그레"></p>
                     </div>
                     <div class="eventDesign">
                         <h3>Event Banner_Design</h3>
                         <ul class="flex">
-                         <li><img src="image/이벤트-배너.jpg" alt=""></li>
-                         <li><img src="image/헬스장-이벤트-배너.jpg" alt="헬스장이벤트배너"></li>
+                            <li><img src="image/lodging_event.jpg "alt="숙소이벤트배너"></li>
+                            <li><img src="image/health_event.jpg" alt="헬스장이벤트배너"></li>
+                            <li><img src="image/cake_event.png" alt="주문제작케이크이벤트배너"></li>
                         </ul>
-                     </div>
+                    </div>
+                </section>
+             
+                <section class="contact" id="Contact">
+                    <h2>Contact Me</h2>
 
-                </div>
-     <section class="contact" id="Contact">
-            <h2>Contact Me</h2>
+                    <p><img src="image/kakao_openchat.jpg" alt="카카오톡 오픈링크"></p>
+                    <p class="kakao">&lt; 카카오 오픈채팅 링크 &gt;</p>
 
-            <p><img src="image/kakao_openchat.jpg" alt="카카오톡 오픈링크"></p>
-            <p class="kakao">&lt; 카카오 오픈채팅 링크 &gt;</p>
-
-        </section>
-        </div>
-        
-
-   
+                </section>
+            </div>
     </main>
-    <div class="pager">
-        <ul>
-            <li class="on"><a href="#"><span class="blind">1</span></a></li>
-            <li ><a href="#skill"><span class="blind">2</span></a></li>
-            <li><a href="#Project_Web"><span class="blind">3</span></a></li>
-            <li><a href="#Clone_Page"><span class="blind">4</span></a></li>
-            <li><a href="#Design"><span class="blind">5</span></a></li>
-            <li><a href="#Contact"><span class="blind">6</span></a></li>
-        </ul>
-    </div>
-
-
-    </div>
-    </section>
+</div>
     <footer>
         <p>비상업용 목적으로 제작된 포토폴리오 입니다. <br> 문제 발생시 게시된 오픈 채팅으로 연락주시면 해결해드리겠습니다.</p>
     </footer>
